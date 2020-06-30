@@ -22,7 +22,6 @@ class Slider extends Component {
   }
 
   componentDidMount() {
-    console.log(process.env);
     fetch(`${process.env.REACT_APP_API_HOST}${apiUrl}`)
       .then(rsp => rsp.json())
       .then(({ entries }) => this.setState({ slides: entries }))
