@@ -16,7 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
-  "homepage": "/build",
+  "homepage": "/wild",
   "eslintConfig": {
     "extends": "react-app"
   },
