@@ -7,7 +7,7 @@ import arrow from '../assets/arrow.svg';
 
 gsap.registerPlugin(Draggable);
 
-const apiUrl = '/cms/api/collections/get/slide';
+const apiUrl = '/cms/api/collections/get/slides';
 
 class Slider extends Component {
   constructor() {
